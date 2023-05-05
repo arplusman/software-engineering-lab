@@ -37,7 +37,7 @@
 
 <img width="1680" alt="Screenshot 1402-02-16 at 12 00 03 AM" src="https://user-images.githubusercontent.com/45389988/236566631-e793f4b6-9bd3-4fa6-83e8-b8c14e033a48.png">
 
-برای این کار ابتدا اینترفیس `Shape` را تعریف می‌کنیم:
+برای این کار ابتدا اینترفیس `Shape` را تعریف می‌کنیم تا اصل LSP نقض نشود،‌ زیرا اگر به صورت مستقیم از کلاس `Rectangle` ارث‌بری کنیم، آنگاه کلاس مربع نمی‌نوتاند از متدهای `get` و `set` استفاده کند:
 
 <img width="1680" alt="Screenshot 1402-02-16 at 12 01 57 AM" src="https://user-images.githubusercontent.com/45389988/236566743-f3a8fe75-5f38-48d3-9534-1b8754b64be5.png">
 
